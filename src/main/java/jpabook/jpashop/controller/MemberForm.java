@@ -10,7 +10,10 @@ public class MemberForm {
 
     @NotEmpty(message = "name is necessary")
     private String name;
-
+    @NotEmpty(message = "nickname is necessary")
+    private String nickname;
+    @NotEmpty(message = "password is necessary")
+    private String password;
     private String city;
     private String street;
     private String zip;
